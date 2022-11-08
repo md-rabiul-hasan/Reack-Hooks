@@ -4,11 +4,12 @@ import StateTutorial from './hooks/useState/StateTutorial';
 import ReducerTutorial from './hooks/useReducer/ReducerTutorial';
 import EffectTutorial from './hooks/useEffect/EffectTutorial';
 import RefTutorial from './hooks/useRef/RefTutorial';
+import LayoutTutorial from './hooks/useLayout/LayoutTutorial';
 
 function App() {
   return (
     <div className="App">
-        <RefTutorial />
+        <LayoutTutorial />
     </div>
   );
 }
