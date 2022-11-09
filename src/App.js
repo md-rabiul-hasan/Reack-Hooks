@@ -8,11 +8,12 @@ import LayoutTutorial from './hooks/useLayout/LayoutTutorial';
 import ImperativeHandle from './hooks/useImperativeHandle/ImperativeHandle';
 import ContextTutorial from './hooks/useContext/ContextTutorial';
 import CallbackTutorial from './hooks/useCallback/CallbackTutorial';
+import Memotutorial from './hooks/useMemo/Memotutorial';
 
 function App() {
   return (
     <div className="App">
-        <CallbackTutorial />
+        <Memotutorial />
     </div>
   );
 }
