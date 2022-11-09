@@ -6,11 +6,12 @@ import EffectTutorial from './hooks/useEffect/EffectTutorial';
 import RefTutorial from './hooks/useRef/RefTutorial';
 import LayoutTutorial from './hooks/useLayout/LayoutTutorial';
 import ImperativeHandle from './hooks/useImperativeHandle/ImperativeHandle';
+import ContextTutorial from './hooks/useContext/ContextTutorial';
 
 function App() {
   return (
     <div className="App">
-        <ImperativeHandle />
+        <ContextTutorial />
     </div>
   );
 }
