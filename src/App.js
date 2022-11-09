@@ -9,11 +9,12 @@ import ImperativeHandle from './hooks/useImperativeHandle/ImperativeHandle';
 import ContextTutorial from './hooks/useContext/ContextTutorial';
 import CallbackTutorial from './hooks/useCallback/CallbackTutorial';
 import Memotutorial from './hooks/useMemo/Memotutorial';
+import CustomHook from './hooks/CustomHook/CustomHook';
 
 function App() {
   return (
     <div className="App">
-        <Memotutorial />
+        <CustomHook />
     </div>
   );
 }
