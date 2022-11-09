@@ -7,11 +7,12 @@ import RefTutorial from './hooks/useRef/RefTutorial';
 import LayoutTutorial from './hooks/useLayout/LayoutTutorial';
 import ImperativeHandle from './hooks/useImperativeHandle/ImperativeHandle';
 import ContextTutorial from './hooks/useContext/ContextTutorial';
+import CallbackTutorial from './hooks/useCallback/CallbackTutorial';
 
 function App() {
   return (
     <div className="App">
-        <ContextTutorial />
+        <CallbackTutorial />
     </div>
   );
 }
